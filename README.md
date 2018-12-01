@@ -22,4 +22,6 @@ Copy `.config-sample.rb` to `.config.rb` and fill it with these credentials.
 $ ruby bot.rb
 ```
 
+It will tweet a random picture (`{jpg,jpeg,png,gif}`) from the `./media/` folder.
+
 You can put this in a cron or modify the script to use [sleep()](https://ruby-doc.org/core-2.5.0/Kernel.html#method-i-sleep) in an infinite loop.
