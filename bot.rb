@@ -2,7 +2,7 @@
 require 'twitter'
 
 # Load keys and secrets from config.rb
-require_relative 'config'
+require_relative '.config'
 
 # API auth
 client = Twitter::REST::Client.new(API_CONFIG)
